@@ -8,7 +8,7 @@ public class PrimitiveDataTypes {
             int myInt = 1000;
             long myLong = 100000L;
 
-            // Числа з плаваючою крапкою
+            // Числа з плавучою крапкою
             float myFloat = 3.14f;
             double myDouble = 3.14159;
 
@@ -41,5 +41,6 @@ public class PrimitiveDataTypes {
             System.out.println("Logical AND: " + logicalAnd);
             System.out.println("Logical OR: " + logicalOr);
             System.out.println("Logical NOT: " + logicalNot);
+
         }
     }
