@@ -199,5 +199,6 @@ public class CharacterConstantsExample {
 
         // Символ, який є літерою у малому регістрі
         System.out.println("UPPERCASE_LETTER: " + Character.UPPERCASE_LETTER);
+
     }
 }

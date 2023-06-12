@@ -1,6 +1,6 @@
 package WrapperClasses.CharacterClass;
 
-public class CharacterUnicodeBlockExample {
+public class UnicodeBlockExample {
 
     public static void main(String[] args) {
         //// Виведення назви блоку Юнікоду для кожного елемента масиву
@@ -16,9 +16,11 @@ public class CharacterUnicodeBlockExample {
         int codePoint = 128516; // Юнікод-код точки коду для символу '😄'
 
         Character.UnicodeBlock unicodeBlock = Character.UnicodeBlock.of(codePoint);
-
-        // Виведення назви блоку Юнікоду
-        System.out.println("Unicode Block: " + unicodeBlock.toString());
+        //Character.Subset
     }
 
+
 }
+
+//ObjectClass
+//clone, finalize, getClass, notify, notifyAll, wait
