@@ -59,7 +59,7 @@ public class CharacterMethodsExamples {
 
         // Генерація випадкового символу
         char randomChar = Character.forDigit((int) (Math.random() * 10), 10);
-        System.out.println("Випадковий симвод: " + randomChar);
+        System.out.println("Випадковий символ: " + randomChar);
 
         // Метод digit - отримання числового значення символу
         int numericValueDigit = Character.digit(ch, 10);
