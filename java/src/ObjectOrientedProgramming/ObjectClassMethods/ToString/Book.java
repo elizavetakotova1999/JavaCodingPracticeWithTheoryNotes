@@ -27,10 +27,10 @@ public class Book {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Title: ").append(title).append("\n");
-        sb.append("Authors: ").append(authors).append("\n");
-        sb.append("Year: ").append(year).append("\n");
-        sb.append("Price: $").append(price).append("\n");
+        sb.append("Назва: ").append(title).append("\n");
+        sb.append("Автори: ").append(authors).append("\n");
+        sb.append("Рік: ").append(year).append("\n");
+        sb.append("Ціна: ₴").append(price).append("\n");
         return sb.toString();
     }
 }

@@ -24,8 +24,8 @@ public class Order {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append("Order ID: ").append(orderId).append("\n");
-        sb.append("Items:\n");
+        sb.append("ID Замовлення: ").append(orderId).append("\n");
+        sb.append("Кількість товарів:\n");
         for (Map.Entry<String, Integer> entry : items.entrySet()) {
             sb.append("  - ").append(entry.getKey()).append(": ").append(entry.getValue()).append("\n");
         }
