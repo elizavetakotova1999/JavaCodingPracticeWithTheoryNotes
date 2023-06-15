@@ -22,5 +22,5 @@ public class UnicodeBlockExample {
 
 }
 
-//ObjectClass
+//ObjectClassMethods
 //clone, finalize, getClass, notify, notifyAll, wait
