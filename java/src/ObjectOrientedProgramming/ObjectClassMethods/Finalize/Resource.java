@@ -12,7 +12,7 @@ public class Resource {
     }
 
     @Override
-    //Не зважаючи на підкреслення червоним(метод є deprecated), код успішно виконається
+    //Не зважаючи на підкреслення червоним(метод є deprecated/застарілим), код успішно виконається...
     protected void finalize() throws Throwable {
         try {
             System.out.println("Знищуємо екземпляр класу Resource: " + name);
