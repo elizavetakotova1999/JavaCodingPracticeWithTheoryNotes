@@ -1,4 +1,4 @@
-package medium.LongestArithmetic;
+package LongestArithmetic;
 
 import java.util.HashMap;
 /*

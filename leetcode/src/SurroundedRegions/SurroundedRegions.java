@@ -1,4 +1,4 @@
-package medium.SurroundedRegions;
+package SurroundedRegions;
 
 public class SurroundedRegions {
 
