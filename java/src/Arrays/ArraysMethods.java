@@ -10,19 +10,12 @@ public class ArraysMethods {
         Integer [] wrapperArray = {2,1,234,6,2,5,26};
         int[] array1d = new int[]{1,-3,6,7,2,7,8,9,-5};
          int[][] array2d = {{1,3,2,6,7}, {2,2,7}, {7, 8, 9},};
-        IntUnaryOperator intUnaryOperator = new IntUnaryOperator() {
-            @Override
-            public int applyAsInt(int operand) {
-                return 4;
-            }
+        IntUnaryOperator intUnaryOperator = operand -> 4;
+        IntBinaryOperator intBinaryOperator = (left, right) -> {
+            left = 1;
+            right = 4;
+            return left+right;
         };
-        IntBinaryOperator intBinaryOperator = new IntBinaryOperator() {
-            @Override
-            public int applyAsInt(int left, int right) {
-                left = 1;
-                right = 4;
-                return left+right;
-            }};
         System.out.println("binary search: " + Arrays.binarySearch(array1d,3));
         System.out.println("compare: "+ Arrays.compare(array1d,custom));
         System.out.println("compare unsigned: "+ Arrays.compareUnsigned(array1d,custom));
