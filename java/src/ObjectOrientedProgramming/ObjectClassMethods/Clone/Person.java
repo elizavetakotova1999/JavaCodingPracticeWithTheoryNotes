@@ -29,5 +29,8 @@ public class Person implements Cloneable {
         // Створюємо копію об'єкта Person зі скопійованими номерами
         return new Person(name, clonedPhoneNumbers);
     }
+
+
+
 }
 
