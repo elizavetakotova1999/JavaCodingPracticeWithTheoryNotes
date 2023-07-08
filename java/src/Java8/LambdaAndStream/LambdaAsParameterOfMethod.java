@@ -1,4 +1,4 @@
-package Java8.Lambda;
+package Java8.LambdaAndStream;
 
 import java.util.function.Function;
 

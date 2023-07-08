@@ -1,4 +1,4 @@
-package Java8.Lambda;
+package Java8.LambdaAndStream;
 
 //Використання лямбда-виразу для реалізації функціонального інтерфейсу:
 public class LambdaAsFunctionalInterface {
