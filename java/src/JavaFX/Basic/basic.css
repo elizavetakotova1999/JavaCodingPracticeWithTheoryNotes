@@ -1,0 +1,19 @@
+.container {
+    -fx-background-color: rgba(243, 151, 17, 0.38); /* Задано колір фону контейнера */
+}
+.chart{
+    -fx-background-color: rgb(255, 255, 255);
+}
+.button{
+    -fx-background-color: rgb(255, 255, 255);
+    -fx-text-fill: #000000; /* Задано колір тексту області тексту */
+    -fx-min-width: 60px;
+    -fx-min-height: 30px;
+}
+.root{
+    -fx-background-color: rgba(91, 217, 28, 0.41);
+}
+.table-view{
+    -fx-background-color: rgba(28, 138, 217, 0.93);
+    -fx-border-color: #b10b45;
+}

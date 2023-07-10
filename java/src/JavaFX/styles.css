@@ -1,0 +1,39 @@
+.container {
+    -fx-background-color: #f39711; /* Задано колір фону контейнера */
+}
+
+.button {
+    -fx-background-color: #af4c75; /* Задано колір фону кнопки */
+    -fx-text-fill: white; /* Задано колір тексту кнопки */
+    -fx-font-size: 14px; /* Задано розмір шрифта кнопки */
+    -fx-padding: 10px 20px; /* Задано відступи (padding) кнопки */
+}
+
+.button:hover {
+    -fx-background-color: rgba(252, 70, 107, 0.53); /* Задано колір фону кнопки при наведенні */
+}
+
+.button:pressed {
+    -fx-background-color: rgba(177, 11, 69, 0.49); /* Задано колір фону кнопки при натисканні */
+}
+
+.text-area {
+    -fx-background-color: #fcbf68; /* Задано колір фону області тексту */
+    -fx-text-fill: #f39711; /* Задано колір тексту області тексту */
+    -fx-font-size: 24px; /* Задано розмір шрифта області тексту */
+    -fx-padding: 10px; /* Задано відступи (padding) області тексту */
+}
+
+.text-area:hover {
+    -fx-background-color: #f3ba68; /* Задано колір фону області тексту при наведенні */
+}
+
+.text-area:focus {
+    -fx-background-color: #f6a93a; /* Задано колір фону області тексту при фокусуванні */
+}
+
+.text-area:disabled {
+    -fx-opacity: 0.7; /* Задано прозорість області тексту у вимкненому стані */
+}
+
+
